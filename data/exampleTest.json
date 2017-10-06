@@ -1,0 +1,36 @@
+[
+  {
+      "searchString":{
+          "exec":true,
+          "value":"Налог"
+      },
+      "lawAtr":{
+          "exec":false,
+          "atr":""
+      },
+      "num":{
+          "exec":false,
+          "value":"Налог"
+      },
+      "date":{
+          "exec":false,
+          "dateStart":"",
+          "dateEnd":""
+      },
+      "type":{
+        "exec":true,
+        "value":"Постановление",
+        "id":"2"
+      },
+      "entity":{
+        "exec":false,
+        "value":"",
+        "id":""
+      },
+      "region":{
+        "exec":true,
+        "value":"Москва",
+        "id":"77"
+      }
+  }
+]

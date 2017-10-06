@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke" verbose="10" parallel="tests" thread-count="20">
+
+    <listeners>
+        <listener class-name="com.actionmedia.tests.services.comparesearchresults.AllureAnnotationsListener"/>
+    </listeners>
+
+    <test name="search.service.tests" preserve-order="true">
+        <packages>
+            <package name="com.actionmedia.tests.services.comparesearchresults.*"/>
+        </packages>
+    </test>
+
+</suite>

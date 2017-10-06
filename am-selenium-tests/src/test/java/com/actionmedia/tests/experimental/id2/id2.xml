@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke" verbose="1" parallel="tests" thread-count="10">
+
+    <test name="id2 1" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.experimental.id2.Id2JsoupTest1"/>
+        </classes>
+    </test>
+
+    <test name="id2 2" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.experimental.id2.Id2JsoupTest2"/>
+        </classes>
+    </test>
+
+    <test name="id2 3" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.experimental.id2.Id2JsoupTest3"/>
+        </classes>
+    </test>
+
+    <test name="id2 4" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.experimental.id2.Id2JsoupTest4"/>
+        </classes>
+    </test>
+
+    <test name="id2 5" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.experimental.id2.Id2JsoupTest5"/>
+        </classes>
+    </test>
+
+    <test name="id2 6" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.experimental.id2.Id2JsoupTest6"/>
+        </classes>
+    </test>
+
+    <test name="id2 7" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.experimental.id2.Id2JsoupTest7"/>
+        </classes>
+    </test>
+
+    <test name="id2 8" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.experimental.id2.Id2JsoupTest8"/>
+        </classes>
+    </test>
+
+    <test name="id2 9" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.experimental.id2.Id2JsoupTest9"/>
+        </classes>
+    </test>
+
+    <test name="id2 10" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.experimental.id2.Id2JsoupTest10"/>
+        </classes>
+    </test>
+
+</suite>

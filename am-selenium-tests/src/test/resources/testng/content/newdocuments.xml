@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="newdocuments" verbose="10" parallel="tests" thread-count="20">
+
+    <listeners>
+        <listener class-name="com.actionmedia.autotest.listeners.NewStartPagesMailSenderListener"/>
+        <listener class-name="com.actionmedia.autotest.listeners.CuantoListener"/>
+    </listeners>
+
+    <test name="БСС" preserve-order="true">
+        <packages>
+            <package name="com.actionmedia.tests.content.newdocuments.bss.*"/>
+        </packages>
+    </test>
+
+    <test name="КСС" preserve-order="true">
+        <packages>
+            <package name="com.actionmedia.tests.content.newdocuments.kss.*"/>
+        </packages>
+    </test>
+
+    <test name="ЮСС" preserve-order="true">
+        <packages>
+            <package name="com.actionmedia.tests.content.newdocuments.uss.*"/>
+        </packages>
+    </test>
+
+    <test name="ФСС" preserve-order="true">
+        <packages>
+            <package name="com.actionmedia.tests.content.newdocuments.fss.*"/>
+        </packages>
+    </test>
+
+    <test name="ГФ" preserve-order="true">
+        <packages>
+            <package name="com.actionmedia.tests.content.newdocuments.gf.*"/>
+        </packages>
+    </test>
+
+    <test name="ОТ" preserve-order="true">
+        <packages>
+            <package name="com.actionmedia.tests.content.newdocuments.ehs.*"/>
+        </packages>
+    </test>
+
+    <test name="ОБР" preserve-order="true">
+        <packages>
+            <package name="com.actionmedia.tests.content.newdocuments.edu.*"/>
+        </packages>
+    </test>
+
+    <test name="ЕЛПУ" preserve-order="true">
+        <packages>
+            <package name="com.actionmedia.tests.content.newdocuments.elpu.*"/>
+        </packages>
+    </test>
+
+    <test name="КЛПУ" preserve-order="true">
+        <packages>
+            <package name="com.actionmedia.tests.content.newdocuments.klpu.*"/>
+        </packages>
+    </test>
+
+    <test name="КУЛЬТУРА" preserve-order="true">
+        <packages>
+            <package name="com.actionmedia.tests.content.newdocuments.cult.*"/>
+        </packages>
+    </test>
+
+    <test name="ГЗ" preserve-order="true">
+        <packages>
+            <package name="com.actionmedia.tests.content.newdocuments.go.*"/>
+        </packages>
+    </test>
+
+    <test name="УМД" preserve-order="true">
+        <packages>
+            <package name="com.actionmedia.tests.content.newdocuments.umd.*"/>
+        </packages>
+    </test>
+
+    <test name="EX: Кадри" preserve-order="true">
+        <packages>
+            <package name="com.actionmedia.tests.content.newdocuments.expertus_k.*"/>
+        </packages>
+    </test>
+
+    <test name="EX: Головбух" preserve-order="true">
+        <packages>
+            <package name="com.actionmedia.tests.content.newdocuments.expertus_gl.*"/>
+        </packages>
+    </test>
+
+    <test name="ACT: Образование" preserve-order="true">
+        <packages>
+            <package name="com.actionmedia.tests.content.newdocuments.actualis_edu.*"/>
+        </packages>
+    </test>
+
+    <test name="ACT: Кадровое дело" preserve-order="true">
+        <packages>
+            <package name="com.actionmedia.tests.content.newdocuments.actualis_k.*"/>
+        </packages>
+    </test>
+
+    <test name="ACT: Госзакупки" preserve-order="true">
+        <packages>
+            <package name="com.actionmedia.tests.content.newdocuments.actualis_gz.*"/>
+        </packages>
+    </test>
+
+</suite>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd">
+
+    <bean id="seleniumProperties" init-method="init" class="com.actionmedia.autotest.spring.SeleniumSettings">
+        <property name="environment" value="${run.tests.on}"/>
+        <property name="propertyConfigurer" ref="propertyConfigurer"/>
+    </bean>
+
+    <bean class="org.springframework.beans.factory.config.CustomScopeConfigurer">
+        <property name="scopes">
+            <map>
+                <entry key="thread">
+                    <bean class="org.springframework.context.support.SimpleThreadScope"/>
+                </entry>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="postponeFailureEvent" class="com.actionmedia.autotest.event.postpone.failure.PostponedFailureEvent"
+          scope="thread">
+        <aop:scoped-proxy/>
+    </bean>
+
+    <bean id="parameterProvider" class="com.actionmedia.autotest.selenium.ParamsProvider" scope="thread">
+        <aop:scoped-proxy/>
+    </bean>
+
+    <bean id="parameterProviderForGroup" class="com.actionmedia.autotest.selenium.ParamsProvider" scope="thread">
+        <aop:scoped-proxy/>
+    </bean>
+
+    <bean id="registry" class="com.actionmedia.autotest.selenium.SpringBasedHelperRegistry"/>
+
+    <bean id="propertyConfigurer" class="com.actionmedia.autotest.spring.CustomPropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>properties/selenium.properties</value>
+                <value>properties/mail.properties</value>
+                <value>properties/hibernate.properties</value>
+            </list>
+        </property>
+        <property name="environments">
+            <list>
+                <bean init-method="init" class="com.actionmedia.autotest.spring.CustomPropertyPlaceholderConfigurer">
+                    <property name="environment" value="PRODUCTION"/>
+                    <property name="locations">
+                        <list>
+                            <value>properties/environments/production/login.properties</value>
+                            <value>properties/environments/production/document.properties</value>
+                            <value>properties/environments/production/section.properties</value>
+                            <value>properties/environments/production/sgcrm.properties</value>
+                            <value>properties/environments/production/system.properties</value>
+                        </list>
+                    </property>
+                </bean>
+
+                <bean init-method="init" class="com.actionmedia.autotest.spring.CustomPropertyPlaceholderConfigurer">
+                    <property name="environment" value="RT"/>
+                    <property name="locations">
+                        <list>
+                            <value>properties/environments/rt/login.properties</value>
+                            <value>properties/environments/rt/document.properties</value>
+                            <value>properties/environments/rt/section.properties</value>
+                            <value>properties/environments/rt/sgcrm.properties</value>
+                            <value>properties/environments/rt/system.properties</value>
+                        </list>
+                    </property>
+                </bean>
+
+                <bean init-method="init" class="com.actionmedia.autotest.spring.CustomPropertyPlaceholderConfigurer">
+                    <property name="environment" value="PROK"/>
+                    <property name="locations">
+                        <list>
+                            <value>properties/environments/prok/login.properties</value>
+                            <value>properties/environments/prok/document.properties</value>
+                            <value>properties/environments/prok/section.properties</value>
+                            <value>properties/environments/prok/sgcrm.properties</value>
+                            <value>properties/environments/prok/system.properties</value>
+                        </list>
+                    </property>
+                </bean>
+
+                <!--<bean init-method="init" class="com.actionmedia.autotest.spring.CustomPropertyPlaceholderConfigurer">-->
+                <!--<property name="environment" value="CI"/>-->
+                <!--<property name="locations">-->
+                <!--<list>-->
+                <!--<value>properties/environments/ci/login.properties</value>-->
+                <!--<value>properties/environments/ci/document.properties</value>-->
+                <!--<value>properties/environments/ci/section.properties</value>-->
+                <!--<value>properties/environments/ci/sgcrm.properties</value>-->
+                <!--</list>-->
+                <!--</property>-->
+                <!--</bean>-->
+
+                <bean init-method="init" class="com.actionmedia.autotest.spring.CustomPropertyPlaceholderConfigurer">
+                    <property name="environment" value="CLUSTER"/>
+                    <property name="locations">
+                        <list>
+                            <value>properties/environments/production/login.properties</value>
+                            <value>properties/environments/production/document.properties</value>
+                            <value>properties/environments/cluster/section.properties</value>
+                            <value>properties/environments/cluster/sgcrm.properties</value>
+                        </list>
+                    </property>
+                    <property name="environments">
+                        <list>
+                            <bean init-method="init" class="com.actionmedia.autotest.spring.CustomPropertyPlaceholderConfigurer">
+                                <property name="environment" value="WEB11"/>
+                                <property name="locations">
+                                    <list>
+                                        <value>properties/environments/cluster/web11/system.properties</value>
+                                    </list>
+                                </property>
+                            </bean>
+                            <bean init-method="init" class="com.actionmedia.autotest.spring.CustomPropertyPlaceholderConfigurer">
+                                <property name="environment" value="WEB12"/>
+                                <property name="locations">
+                                    <list>
+                                        <value>properties/environments/cluster/web12/system.properties</value>
+                                    </list>
+                                </property>
+                            </bean>
+                            <bean init-method="init" class="com.actionmedia.autotest.spring.CustomPropertyPlaceholderConfigurer">
+                                <property name="environment" value="WEB13"/>
+                                <property name="locations">
+                                    <list>
+                                        <value>properties/environments/cluster/web13/system.properties</value>
+                                    </list>
+                                </property>
+                            </bean>
+                            <bean init-method="init" class="com.actionmedia.autotest.spring.CustomPropertyPlaceholderConfigurer">
+                                <property name="environment" value="WEB21"/>
+                                <property name="locations">
+                                    <list>
+                                        <value>properties/environments/cluster/web21/system.properties</value>
+                                    </list>
+                                </property>
+                            </bean>
+                            <bean init-method="init" class="com.actionmedia.autotest.spring.CustomPropertyPlaceholderConfigurer">
+                                <property name="environment" value="WEB22"/>
+                                <property name="locations">
+                                    <list>
+                                        <value>properties/environments/cluster/web22/system.properties</value>
+                                    </list>
+                                </property>
+                            </bean>
+                            <bean init-method="init" class="com.actionmedia.autotest.spring.CustomPropertyPlaceholderConfigurer">
+                                <property name="environment" value="WEB23"/>
+                                <property name="locations">
+                                    <list>
+                                        <value>properties/environments/cluster/web23/system.properties</value>
+                                    </list>
+                                </property>
+                            </bean>
+                        </list>
+                    </property>
+                </bean>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="timeout" class="java.lang.Long">
+        <constructor-arg type="long" value="${application.selenium.timeout}"/>
+    </bean>
+
+    <context:component-scan base-package="com.actionmedia.pages"
+                            scope-resolver="com.actionmedia.autotest.selenium.HardCodedPrototypeScopeResolver"/>
+
+</beans>

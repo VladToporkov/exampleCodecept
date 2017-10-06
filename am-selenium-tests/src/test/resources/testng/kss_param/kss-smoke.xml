@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="systems" verbose="10" parallel="tests" thread-count="10">
+
+    <listeners>
+        <listener class-name="com.actionmedia.autotest.listeners.CuantoListener"/>
+    </listeners>
+
+    <test name="tests.67" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.answers.KSS_214_VerifyFavorites"/>
+        </classes>
+    </test>
+
+    <test name="tests.1" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.magazines.KSS_2_VerifyShelfOfNewItems"/>
+        </classes>
+    </test>
+
+    <test name="tests.2" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.magazines.KSS_3_VerifyBookShelf"/>
+        </classes>
+    </test>
+
+    <test name="tests.3" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.answers.KSS_11_VerifyAnswersDefaultState"/>
+        </classes>
+    </test>
+
+    <test name="tests.4" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.answers.KSS_12_VerifyYellowPlate"/>
+        </classes>
+    </test>
+
+    <test name="tests.5" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.magazines.KSS_13_VerifyMagazinesShelves"/>
+        </classes>
+    </test>
+
+    <test name="tests.6" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.news.KSS_14_VerifyAllNewsPage"/>
+        </classes>
+    </test>
+
+    <test name="tests.7" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.lawbase.KSS_17_VerifyLawBaseDefaultState"/>
+        </classes>
+    </test>
+
+    <test name="tests.8" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.lawbase.KSS_18_VerifyLawBaseNewsBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.9" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.lawbase.KSS_19_VerifyKodexBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.10" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.forms.KSS_20_VerifyFormsDefaultState"/>
+        </classes>
+    </test>
+
+    <test name="tests.11" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.forms.KSS_21_VerifyFormsNewsBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.12" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.forms.KSS_22_VerifyPopularBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.13" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.dictionary.KSS_23_VerifyDictionaryDefaultState"/>
+        </classes>
+    </test>
+
+    <test name="tests.14" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.dictionary.KSS_24_VerifyDictionaryBoard"/>
+        </classes>
+    </test>
+
+    <test name="tests.15" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.dictionary.KSS_25_VerifyDictionaryNewsBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.16" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.dictionary.KSS_26_VerifyPopularBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.17" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.magazines.KSS_27_VerifyMagazinesDefaultState"/>
+        </classes>
+    </test>
+
+    <test name="tests.18" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.videos.KSS_29_VerifyVideoDefaultState"/>
+        </classes>
+    </test>
+
+    <test name="tests.22" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.wizards.KSS_34_VerifyPopularBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.23" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.answers.KSS_35_VerifyLawBaseBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.24" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.answers.KSS_36_VerifyFormsBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.25" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.answers.KSS_37_VerifyMagazinesAndBooksBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.26" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.answers.KSS_47_VerifyAnswersDocument130Module"/>
+        </classes>
+    </test>
+
+    <test name="tests.27" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.lawbase.KSS_62_VerifyLawBaseDocument99Module"/>
+        </classes>
+    </test>
+
+    <test name="tests.28" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.lawbase.KSS_64_VerifyKodeksDocument"/>
+        </classes>
+    </test>
+
+    <test name="tests.29" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.forms.KSS_66_VerifyFormsDocument118Module"/>
+        </classes>
+    </test>
+
+    <test name="tests.30" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.forms.KSS_67_VerifyFormsDocument140Module"/>
+        </classes>
+    </test>
+
+    <test name="tests.31" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.dictionary.KSS_68_VerifyDictionaryDocument117Module"/>
+        </classes>
+    </test>
+
+    <test name="tests.32" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.magazines.KSS_69_VerifyMagazineDocumentMainPage"/>
+        </classes>
+    </test>
+
+    <test name="tests.33" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.magazines.KSS_70_VerifyBookDocument"/>
+        </classes>
+    </test>
+
+    <test name="tests.34" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.videos.KSS_71_VerifyVideoDocument145Module"/>
+        </classes>
+    </test>
+
+    <test name="tests.35" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.wizards.KSS_72_VerifyWizardsDocument150Module"/>
+        </classes>
+    </test>
+
+    <test name="tests.36" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.search.forms.KSS_81_VerifySearchOutputResultFormsPageIsPresent"/>
+        </classes>
+    </test>
+
+    <test name="tests.38" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.lawbase.KSS_104_VerifyPopularBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.39" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.answers.KSS_106_VerifyNewsBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.40" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.magazines.KSS_112_VerifyBookStartPages"/>
+        </classes>
+    </test>
+
+    <test name="tests.41" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.search.answers.KSS_130_VerifySearchOutputResultAnswerPageIsPresent"/>
+        </classes>
+    </test>
+
+    <test name="tests.42" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.search.answers.KSS_132_VerifySearchOutputResultAnswerPageIsNotPresent"/>
+        </classes>
+    </test>
+
+    <test name="tests.43" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.search.lawbase.KSS_133_VerifySearchOutputResultLawBasePageIsPresent"/>
+        </classes>
+    </test>
+
+    <test name="tests.44" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.search.lawbase.KSS_134_VerifySearchOutputResultLawBasePageIsNotPresent"/>
+        </classes>
+    </test>
+
+    <test name="tests.45" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.search.forms.KSS_135_VerifySearchOutputResultFormsPageIsNotPresent"/>
+        </classes>
+    </test>
+
+    <test name="tests.46" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.search.magazines.KSS_137_VerifySearchOutputResultMagazinesPageIsPresent"/>
+        </classes>
+    </test>
+
+    <test name="tests.47" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.search.magazines.KSS_138_VerifySearchOutputResultMagazinesPageIsNotPresent"/>
+        </classes>
+    </test>
+
+    <test name="tests.48" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.answers.KSS_148_VerifyAboutSystemPageDefaultState"/>
+        </classes>
+    </test>
+
+    <test name="tests.49" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.services.KSS_155_VerifyServicesDefaultState"/>
+        </classes>
+    </test>
+
+    <test name="tests.50" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.answers.KSS_162_VerifyOnlineHelp"/>
+        </classes>
+    </test>
+
+    <test name="tests.51" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.lawbase.KSS_166_VerifyReferencesInKodeksDocument"/>
+        </classes>
+    </test>
+
+    <test name="tests.52" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.magazines.KSS_167_VerifyMagazineDocument"/>
+        </classes>
+    </test>
+
+    <test name="tests.53" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.magazines.KSS_171_VerifyTableOfContents"/>
+        </classes>
+    </test>
+
+    <test name="tests.54" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.answers.KSS_172_VerifySoder"/>
+        </classes>
+    </test>
+
+    <test name="tests.55" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.lawbase.KSS_173_VerifySoderLinks"/>
+        </classes>
+    </test>
+
+    <test name="tests.56" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.lawbase.KSS_174_VerifyTableOfContentsInKodeks"/>
+        </classes>
+    </test>
+
+    <test name="tests.57" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.answers.KSS_177_VerifyRubricatorAnswers"/>
+        </classes>
+    </test>
+
+    <test name="tests.58" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.lawbase.KSS_178_VerifyRubricatorLawBase"/>
+        </classes>
+    </test>
+
+    <test name="tests.59" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.forms.KSS_179_VerifyRubricatorForms"/>
+        </classes>
+    </test>
+
+    <test name="tests.60" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.dictionary.KSS_180_VerifyRubricatorDictionary"/>
+        </classes>
+    </test>
+
+    <test name="tests.61" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.magazines.KSS_181_VerifyRubricatorMagazines"/>
+        </classes>
+    </test>
+
+    <test name="tests.62" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.videos.KSS_182_VerifyRubricatorVideos"/>
+        </classes>
+    </test>
+
+    <test name="tests.65" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.answers.KSS_187_VerifyAboutSystemPageDefaultState"/>
+        </classes>
+    </test>
+
+    <test name="tests.66" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.answers.KSS_192_VerifyAnswersDocument195Module"/>
+        </classes>
+    </test>
+
+    <test name="tests.68" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.answers.KSS_238_VerifyBanner"/>
+        </classes>
+    </test>
+
+    <test name="tests.69" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.magazines.KSS_VerifyTableOfContentsIsNotEmpty"/>
+        </classes>
+    </test>
+
+</suite>

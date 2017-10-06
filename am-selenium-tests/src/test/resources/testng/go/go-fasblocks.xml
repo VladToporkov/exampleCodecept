@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke" verbose="10" parallel="tests" thread-count="3">
+
+    <listeners>
+        <listener class-name="com.actionmedia.autotest.listeners.FASBlockMailSenderListener"/>
+    </listeners>
+
+    <test name="tests.1" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.functional.go.content.fas.GO_VerifyFASBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.2" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.functional.go.content.fas.GO_MINI_VerifyFASBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.3" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.functional.go.content.fas.GO_VIP_VerifyFASBlock"/>
+        </classes>
+    </test>
+
+</suite>

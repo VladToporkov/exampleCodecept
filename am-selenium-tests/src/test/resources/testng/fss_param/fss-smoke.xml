@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="systems" verbose="10" parallel="tests" thread-count="10">
+
+    <listeners>
+        <listener class-name="com.actionmedia.autotest.listeners.CuantoListener"/>
+    </listeners>
+
+    <test name="tests.1" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.mainpage.FSS_2_VerifyMainPage"/>
+        </classes>
+    </test>
+
+    <test name="tests.2" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.mainpage.FSS_4_VerifyFooter"/>
+        </classes>
+    </test>
+
+    <test name="tests.3" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.solutions.FSS_5_VerifyDefaultState"/>
+        </classes>
+    </test>
+
+    <test name="tests.4" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.forms.FSS_6_VerifyDefaultStateFormsPage"/>
+        </classes>
+    </test>
+
+    <test name="tests.5" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.lawbase.FSS_7_VerifyDefaultStateLawBasePage"/>
+        </classes>
+    </test>
+
+    <test name="tests.6" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.magazines.FSS_8_VerifyDefaultStateMagazinesPage"/>
+        </classes>
+    </test>
+
+    <test name="tests.7" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.videos.FSS_9_VerifyDefaultStateVideosPage"/>
+        </classes>
+    </test>
+
+    <test name="tests.8" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.dictionary.FSS_10_VerifyDefaultStateDictionaryPage"/>
+        </classes>
+    </test>
+
+    <test name="tests.9" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.services.FSS_11_VerifyDefaultStateServicesPage"/>
+        </classes>
+    </test>
+
+    <test name="tests.10" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.magazines.FSS_21_VerifyMagazineDocument"/>
+        </classes>
+    </test>
+
+    <test name="tests.11" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.magazines.FSS_22_VerifyBookDocument"/>
+        </classes>
+    </test>
+
+    <test name="tests.12" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.search.solutions.FSS_34_VerifyRubricatorOnSearchResultPage"/>
+        </classes>
+    </test>
+
+    <test name="tests.13" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.solutions.FSS_35_VerifyRubricator"/>
+        </classes>
+    </test>
+
+    <test name="tests.14" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.forms.FSS_36_VerifyRubricator"/>
+        </classes>
+    </test>
+
+    <test name="tests.15" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.lawbase.FSS_37_VerifyRubricator"/>
+        </classes>
+    </test>
+
+    <test name="tests.16" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.magazines.FSS_38_VerifyRubricator"/>
+        </classes>
+    </test>
+
+    <test name="tests.17" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.videos.FSS_39_VerifyRubricator"/>
+        </classes>
+    </test>
+
+    <test name="tests.18" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.dictionary.FSS_40_VerifyRubricator"/>
+        </classes>
+    </test>
+
+    <test name="tests.19" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.search.forms.FSS_81_VerifySearchResultOutputIsPresent"/>
+        </classes>
+    </test>
+
+    <test name="tests.20" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.search.dictionary.FSS_83_VerifySearchResultOutputIsPresent"/>
+        </classes>
+    </test>
+
+    <test name="tests.21" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.mainpage.FSS_103_VerifyCustomerInfo"/>
+        </classes>
+    </test>
+
+    <test name="tests.22" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.search.solutions.FSS_107_VerifySearchBoxOnSolutionPage"/>
+        </classes>
+    </test>
+
+    <test name="tests.23" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.search.video.FSS_126_VerifySearchResultOutputIsPresent"/>
+        </classes>
+    </test>
+
+    <test name="tests.24" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.search.solutions.FSS_130_VerifySearchResultOutputIsPresent"/>
+        </classes>
+    </test>
+
+    <test name="tests.25" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.search.magazines.FSS_137_VerifySearchResultOutputIsPresent"/>
+        </classes>
+    </test>
+
+    <test name="tests.26" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.videos.FSS_143_VerifyVideoDocument"/>
+        </classes>
+    </test>
+
+    <test name="tests.27" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.dictionary.FSS_144_VerifyDictionaryDocument"/>
+        </classes>
+    </test>
+
+    <test name="tests.28" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.forms.FSS_145_VerifyFormsDocument"/>
+        </classes>
+    </test>
+
+    <test name="tests.29" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.solutions.FSS_146_VerifySolutionDocument"/>
+        </classes>
+    </test>
+
+    <test name="tests.30" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.services.FSS_152_VerifyRightPanel"/>
+        </classes>
+    </test>
+
+    <test name="tests.31" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.solutions.FSS_158_VerifyRightPanel"/>
+        </classes>
+    </test>
+
+    <test name="tests.32" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.solutions.FSS_163_VerifyRightPanelInSolution"/>
+        </classes>
+    </test>
+
+    <test name="tests.33" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.forms.FSS_164_VerifyRightPanelInForms"/>
+        </classes>
+    </test>
+
+    <test name="tests.34" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.forms.FSS_165_VerifyRightPanel"/>
+        </classes>
+    </test>
+
+    <test name="tests.35" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.magazines.FSS_166_VerifyRightPanel"/>
+        </classes>
+    </test>
+
+    <test name="tests.36" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.lawbase.FSS_167_VerifyRightPanel"/>
+        </classes>
+    </test>
+
+    <test name="tests.37" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.lawbase.FSS_168_VerifyRightPanelInLawBaseDocument"/>
+        </classes>
+    </test>
+
+    <test name="tests.38" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.magazines.FSS_169_VerifyRightPanelInMagazineDocument"/>
+        </classes>
+    </test>
+
+    <test name="tests.39" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.videos.FSS_170_VerifyRightPanel"/>
+        </classes>
+    </test>
+
+    <test name="tests.40" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.videos.FSS_171_VerifyRightPanelInVideo"/>
+        </classes>
+    </test>
+
+    <test name="tests.41" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.dictionary.FSS_172_VerifyRightPanel"/>
+        </classes>
+    </test>
+
+    <test name="tests.42" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.magazines.FSS_VerifyTableOfContentsIsNotEmpty"/>
+        </classes>
+    </test>
+
+    <test name="tests.43" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.search.lawbase.FSS_133_VerifySearchOnLawBasePage"/>
+        </classes>
+    </test>
+
+    <test name="tests.44" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.search.video.FSS_141_VerifySearchResultOutputIsNotPresentOnVideoPage"/>
+        </classes>
+    </test>
+
+    <test name="tests.45" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.search.lawbase.FSS_78_VerifyExtendedSearch"/>
+        </classes>
+    </test>
+
+    <test name="tests.46" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.solutions.FSS_15_VerifyRubricatorNavigation"/>
+        </classes>
+    </test>
+
+    <test name="tests.47" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.search.solutions.FSS_173_VerifyStandardSearch"/>
+        </classes>
+    </test>
+
+    <test name="tests.48" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.fss.mainpage.FSS_157_VerifyAccessToDocument"/>
+        </classes>
+    </test>
+
+</suite>

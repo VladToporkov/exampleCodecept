@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="backlinks" verbose="10" parallel="tests" thread-count="20">
+
+    <listeners>
+        <listener class-name="com.actionmedia.autotest.listeners.StartPagesMailSenderListener"/>
+        <listener class-name="com.actionmedia.autotest.listeners.CuantoListener"/>
+    </listeners>
+
+    <test name="tests.1.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.content.backlinks.BSS_KU_VerifyBackLinks"/>
+        </classes>
+    </test>
+
+    <test name="tests.2.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.content.backlinks.BSS_BU_VerifyBackLinks"/>
+        </classes>
+    </test>
+
+    <test name="tests.3.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.content.backlinks.BSS_USN_VerifyBackLinks"/>
+        </classes>
+    </test>
+
+    <test name="tests.4.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.content.backlinks.BSS_VIP_VerifyBackLinks"/>
+        </classes>
+    </test>
+
+</suite>

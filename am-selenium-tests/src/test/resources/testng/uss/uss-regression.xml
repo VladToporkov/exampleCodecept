@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="systems" verbose="10" parallel="tests" thread-count="10">
+
+    <listeners>
+        <listener class-name="com.actionmedia.autotest.listeners.CuantoListener"/>
+    </listeners>
+
+    <test name="tests.7" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.wizards.USS_48_VerifyPetalsElements"/>
+        </classes>
+    </test>
+
+    <test name="tests.8" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.wizards.USS_49_VerifyWizardsPage"/>
+        </classes>
+    </test>
+
+    <test name="tests.9" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.recomend.USS_77_VerifyYellowPlate"/>
+        </classes>
+    </test>
+
+    <test name="tests.10" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.recomend.USS_78_VerifyDefaultStateRecomendPage"/>
+        </classes>
+    </test>
+
+    <test name="tests.11" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.recomend.USS_80_VerifyLawBaseBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.12" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.recomend.USS_81_VerifyFormsBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.13" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.recomend.USS_82_VerifyMagazinesAndBooksBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.14" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.recomend.USS_83_VerifyVideosBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.15" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.recomend.USS_84_VerifyDictionaryBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.16" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.recomend.USS_85_VerifyMyFavoritesBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.17" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.recomend.USS_86_VerifyWizardsBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.19" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.news.USS_88_VerifyRecomendNewsPage"/>
+        </classes>
+    </test>
+
+    <test name="tests.20" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.news.USS_89_VerifyAllNewsPage"/>
+        </classes>
+    </test>
+
+    <test name="tests.21" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.news.USS_90_VerifyLawBaseNewsPage"/>
+        </classes>
+    </test>
+
+    <test name="tests.22" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.news.USS_91_VerifyFormsNewsPage"/>
+        </classes>
+    </test>
+
+    <test name="tests.23" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.news.USS_92_VerifyDictionaryNewsPage"/>
+        </classes>
+    </test>
+
+    <test name="tests.24" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.news.USS_93_VerifyMagazinesNewsPage"/>
+        </classes>
+    </test>
+
+    <test name="tests.25" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.news.USS_94_VerifyVideosNewsPage"/>
+        </classes>
+    </test>
+
+    <test name="tests.26" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.news.USS_95_VerifyWizardsNewsPage"/>
+        </classes>
+    </test>
+
+    <test name="tests.31" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.recomend.USS_174_VerifyAccessToDocumentsInKD"/>
+        </classes>
+    </test>
+
+    <test name="tests.34" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.lawbase.USS_4_VerifyNewsBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.35" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.lawbase.USS_5_VerifyKodeksBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.36" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.lawbase.USS_6_VerifyPopularBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.38" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.forms.USS_8_VerifyNewsBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.43" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.wizards.USS_19_VerifyPopularBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.44" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.recomend.USS_20_VerifySendToExpertPage"/>
+        </classes>
+    </test>
+
+    <test name="tests.47" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.videos.USS_47_VerifyVideoList"/>
+        </classes>
+    </test>
+
+    <test name="tests.48" preserve-order="true">
+        <groups>
+            <run>
+                <include name="implemented"/>
+                <include name="smoke"/>
+                <include name="regression"/>
+                <exclude name="inDevelopment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.uss.lawbase.USS_115_VerifyKodeksDocuments"/>
+        </classes>
+    </test>
+
+</suite>

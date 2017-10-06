@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="regression" verbose="10" parallel="tests" thread-count="40">
+
+    <listeners>
+        <listener class-name="com.actionmedia.autotest.listeners.CuantoListener"/>
+    </listeners>
+
+    <test name="test" preserve-order="true">
+        <!--<parameter name="platform" value="PLATFORM_STUB"/>-->
+        <classes>
+            <class name="com.actionmedia.tests.functional.oss.documents.OSS_244_DisplayDocument99_BSS"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="etalons" verbose="10" parallel="tests" thread-count="20">
+
+    <listeners>
+        <listener class-name="com.actionmedia.autotest.listeners.MailSenderListener"/>
+        <listener class-name="com.actionmedia.autotest.listeners.CuantoListener"/>
+    </listeners>
+
+    <test name="tests.1" preserve-order="true">
+        <packages>
+            <package name="com.actionmedia.tests.functional.edu.content.modules.thread_1.*"/>
+        </packages>
+    </test>
+
+    <test name="tests.2" preserve-order="true">
+        <packages>
+            <package name="com.actionmedia.tests.functional.edu.content.modules.thread_2.*"/>
+        </packages>
+    </test>
+
+</suite>

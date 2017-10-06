@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke" verbose="10" parallel="tests" thread-count="20">
+
+    <listeners>
+        <listener class-name="com.actionmedia.tests.services.searchwidgettype.MailSenderListener"/>
+    </listeners>
+
+    <test name="search.service.widgets.bss" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.services.searchwidgettype.BSS_WidgetTypeSearch"/>
+        </classes>
+    </test>
+
+    <test name="search.service.widgets.kss" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.services.searchwidgettype.KSS_WidgetTypeSearch"/>
+        </classes>
+    </test>
+
+    <test name="search.service.widgets.uss" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.services.searchwidgettype.USS_WidgetTypeSearch"/>
+        </classes>
+    </test>
+
+    <test name="search.service.widgets.fss" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.services.searchwidgettype.FSS_WidgetTypeSearch"/>
+        </classes>
+    </test>
+
+</suite>

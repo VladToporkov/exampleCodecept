@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="regression" verbose="10" parallel="tests" thread-count="3">
+
+    <listeners>
+        <listener class-name="com.actionmedia.autotest.listeners.CuantoListener"/>
+    </listeners>
+
+    <test name="tests.intesting.law" preserve-order="true">
+        <groups>
+            <run>
+                <include name="inTesting"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.actionmedia.tests.functional.oss.law.*"/>
+        </packages>
+    </test>
+
+    <test name="tests.intesting.search" preserve-order="true">
+        <groups>
+            <run>
+                <include name="inTesting"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.actionmedia.tests.functional.oss.search.*"/>
+        </packages>
+    </test>
+
+    <test name="tests.intesting" preserve-order="true">
+        <groups>
+            <run>
+                <include name="inTesting"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.actionmedia.tests.functional.oss"/>
+        </packages>
+    </test>
+
+    <test name="tests.intesting.dictionary" preserve-order="true">
+        <groups>
+            <run>
+                <include name="inTesting"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.actionmedia.tests.functional.oss.dictionary.*"/>
+        </packages>
+    </test>
+
+    <test name="tests.intesting.documents" preserve-order="true">
+        <groups>
+            <run>
+                <include name="inTesting"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.actionmedia.tests.functional.oss.documents.*"/>
+        </packages>
+    </test>
+
+    <test name="tests.intesting.promo" preserve-order="true">
+        <groups>
+            <run>
+                <include name="inTesting"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.actionmedia.tests.functional.oss.promo.*"/>
+        </packages>
+    </test>
+
+    <test name="tests.intesting.rubricator" preserve-order="true">
+        <groups>
+            <run>
+                <include name="inTesting"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.actionmedia.tests.functional.oss.rubricator.*"/>
+        </packages>
+    </test>
+
+</suite>

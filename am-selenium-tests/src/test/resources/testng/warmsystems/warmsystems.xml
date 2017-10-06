@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="regression" verbose="1" parallel="tests" thread-count="20">
+
+    <listeners>
+        <listener class-name="com.actionmedia.autotest.listeners.CuantoListener"/>
+    </listeners>
+
+    <test name="bss" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.experimental.warmsystems.WarmBss"/>
+        </classes>
+    </test>
+
+    <test name="kss" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.experimental.warmsystems.WarmKss"/>
+        </classes>
+    </test>
+
+    <test name="uss" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.experimental.warmsystems.WarmUss"/>
+        </classes>
+    </test>
+
+    <test name="fss" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.experimental.warmsystems.WarmFss"/>
+        </classes>
+    </test>
+
+</suite>

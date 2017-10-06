@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="judgmentblock" verbose="10" parallel="tests" thread-count="20">
+
+    <listeners>
+        <listener class-name="com.actionmedia.autotest.listeners.JudgmentBlockMailSenderListener"/>
+        <listener class-name="com.actionmedia.autotest.listeners.CuantoListener"/>
+    </listeners>
+
+    <test name="tests.1" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.content.judgmentblock.KSS_KU_VerifyJudgmentBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.2" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.content.judgmentblock.KSS_BU_VerifyJudgmentBlock"/>
+        </classes>
+    </test>
+
+    <test name="tests.3" preserve-order="true">
+        <classes>
+            <class name="com.actionmedia.tests.functional.kss.content.judgmentblock.KSS_VIP_VerifyJudgmentBlock"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <event-parameters event-type="LetterSent">
+        <event-parameter> <!-- алиас типа события -->
+            <name>alias</name>
+            <value>LetterSent</value>
+        </event-parameter>
+        <event-parameter> <!-- идентификатор пользователя -->
+            <name>user_token</name>
+            <value>STUB_USER_TOKEN</value>
+        </event-parameter>
+        <event-parameter> <!-- дата события -->
+            <name>date</name>
+            <value>STUB_DATE</value>
+        </event-parameter>
+        <event-parameter> <!-- идентификатор издания -->
+            <name>pub_id</name>
+            <value>STUB_PUB_ID</value>
+            <event-parameter> <!-- идентификатор темы -->
+                <name>theme_id</name>
+                <value>STUB_THEME_ID</value>
+            </event-parameter>
+            <event-parameter> <!-- порядковый номер письма в теме -->
+                <name>letter_number_in_theme</name>
+                <value>STUB_LETTER_NUMBER</value>
+            </event-parameter>
+        </event-parameter>
+    </event-parameters>
+</root>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <event-parameters event-type="Unsubscribe">
+        <event-parameter> <!-- алиас типа события -->
+            <name>alias</name>
+            <value>Unsubscribe</value>
+        </event-parameter>
+        <event-parameter> <!-- ключ подписки (32 шестнадцатеричные цифры) -->
+            <name>subscribe_key</name>
+            <value>STUB_SUBSCRIBE_KEY</value>
+        </event-parameter>
+    </event-parameters>
+</root>

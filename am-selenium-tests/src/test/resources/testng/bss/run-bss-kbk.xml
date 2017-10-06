@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke" verbose="10" parallel="tests" thread-count="10">
+
+    <test name="tests.1.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_1"/>
+        </classes>
+    </test>
+
+    <test name="tests.2.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_2"/>
+        </classes>
+    </test>
+
+    <test name="tests.3.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_3"/>
+        </classes>
+    </test>
+
+    <test name="tests.4.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_4"/>
+        </classes>
+    </test>
+
+    <test name="tests.5.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_5"/>
+        </classes>
+    </test>
+
+    <test name="tests.6.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_6"/>
+        </classes>
+    </test>
+
+    <test name="tests.7.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_7"/>
+        </classes>
+    </test>
+
+    <test name="tests.8.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_8"/>
+        </classes>
+    </test>
+
+    <test name="tests.9.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_9"/>
+        </classes>
+    </test>
+
+    <test name="tests.10.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_10"/>
+        </classes>
+    </test>
+
+    <test name="tests.11.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_11"/>
+        </classes>
+    </test>
+
+    <test name="tests.12.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_12"/>
+        </classes>
+    </test>
+
+    <test name="tests.13.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_13"/>
+        </classes>
+    </test>
+
+    <test name="tests.14.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_14"/>
+        </classes>
+    </test>
+
+    <test name="tests.15.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_15"/>
+        </classes>
+    </test>
+
+    <test name="tests.16.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_16"/>
+        </classes>
+    </test>
+
+    <test name="tests.17.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_17"/>
+        </classes>
+    </test>
+
+    <test name="tests.18.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_18"/>
+        </classes>
+    </test>
+
+    <test name="tests.19.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_19"/>
+        </classes>
+    </test>
+
+    <test name="tests.20.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_20"/>
+        </classes>
+    </test>
+
+    <test name="tests.21.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_21"/>
+        </classes>
+    </test>
+
+    <test name="tests.22.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_22"/>
+        </classes>
+    </test>
+
+    <test name="tests.23.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_23"/>
+        </classes>
+    </test>
+
+    <test name="tests.24.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_24"/>
+        </classes>
+    </test>
+
+    <test name="tests.25.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_25"/>
+        </classes>
+    </test>
+
+    <test name="tests.26.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_26"/>
+        </classes>
+    </test>
+
+    <test name="tests.27.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_27"/>
+        </classes>
+    </test>
+
+    <test name="tests.28.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_28"/>
+        </classes>
+    </test>
+
+    <test name="tests.29.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_29"/>
+        </classes>
+    </test>
+
+    <test name="tests.30.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_30"/>
+        </classes>
+    </test>
+
+    <test name="tests.31.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_31"/>
+        </classes>
+    </test>
+
+    <test name="tests.32.firefox" preserve-order="true">
+        <parameter name="browser" value="firefox"/>
+        <groups>
+            <run>
+                <include name="kbk"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.actionmedia.tests.functional.bss.kbk.BSS_KBK_Test_32"/>
+        </classes>
+    </test>
+
+</suite>

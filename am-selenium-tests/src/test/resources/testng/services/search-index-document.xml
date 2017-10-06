@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke" verbose="10" parallel="tests" thread-count="20">
+
+    <test name="search.index.document.tests" preserve-order="true">
+        <groups>
+            <run>
+                <include name="index"/>
+                <include name="search"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.actionmedia.tests.services.searchindexes.*"/>
+        </packages>
+    </test>
+
+</suite>
